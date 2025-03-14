@@ -1,5 +1,5 @@
-Currently running project on python 3.12.
-installed libralies:
+Currently running project on python 3.12.__
+installed libraries:
   + torch
   + torchvision 
   + PILLOW
