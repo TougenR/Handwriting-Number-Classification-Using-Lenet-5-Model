@@ -1,4 +1,4 @@
-Currently running project on python 3.12
+Currently running project on python 3.12.
 installed libralies:
   + torch
   + torchvision 
@@ -7,3 +7,6 @@ installed libralies:
   + tqdm
   + tensorboard
   + numpy
+  + argparse
+  + matplotlib
+  + cv2
