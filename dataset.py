@@ -36,25 +36,4 @@ class MyMNISTDataset(Dataset):
             image = self.transform(image)
         label = self.labels[index]
         return image, label
-        
-
-if __name__ == '__main__':
-    transform = Compose([
-        Resize((32,32)),
-        ToTensor()
-    ])
-    dataset = MyMNISTDataset(root=r"D:\VSC saves\ML4CV\MNIST", train=True, transform=transform)
-
-    train_dataloader = DataLoader(
-        dataset=dataset,
-        batch_size=1,
-        shuffle=True,
-        num_workers=0,
-        drop_last=True
-    )
-
-    for images, labels in train_dataloader:
-        print(images.shape)
-        print(labels)
-        break
     

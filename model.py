@@ -37,10 +37,3 @@ class NumberClassification(nn.Module):
         x = self.fc2(x) 
 
         return x
-
-if __name__ == "__main__":
-    model = NumberClassification()
-    sample = torch.rand(1, 1, 32, 32)
-    output = model(sample)
-    print(output)
-    print(torch.argmax(output, dim=1))
