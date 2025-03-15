@@ -11,6 +11,7 @@ installed libraries:
   + argparse
   + matplotlib
   + cv2
+  + sklearn  
 
 Base model: Lenet-5
   * Adding BatchNorm Layer, Dropout Layer and using ReLU activation instead of Tanh.
