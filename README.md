@@ -1,4 +1,5 @@
-This project is for studying purposes.  
+Dataset: MNIST  
+Abstract: Classify handwriting number from 0-9.  
 Currently running project on python 3.12 and CUDA 12.6.  
 installed libraries:
   + torch
