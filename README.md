@@ -15,7 +15,13 @@
     + sklearn  
 
 - Base model: Lenet-5
-    * Adding BatchNorm Layer, Dropout Layer and using ReLU activation instead of Tanh for avoiding vanishing gradient and overfitting.  
+    * Adding BatchNorm Layer, Dropout Layer and using ReLU activation instead of Tanh for avoiding vanishing gradient and overfitting.
+    * Overview of Lenet-5 base model:
+        ![Screenshot 2025-03-21 135815](https://github.com/user-attachments/assets/5474b903-fcb3-4e27-89f9-81ae0a209ba4)
+      Details:  
+      ![image](https://github.com/user-attachments/assets/c66db940-de2a-4a18-9443-c73029033e31)  
+
+
 
 - Performance:  
 ![Screenshot 2025-03-15 163030](https://github.com/user-attachments/assets/c28704a1-6b23-449d-96d4-8cafce975c36)  
